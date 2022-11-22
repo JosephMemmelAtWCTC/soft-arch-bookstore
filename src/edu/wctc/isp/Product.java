@@ -5,19 +5,9 @@ import java.time.LocalDate;
 
 public interface Product {
 
-    String getArtist();
-
-    String getAuthor();
-
     double getCost();
 
     String getFormattedReleaseDate();
-
-    String getISBN();
-
-    int getPages();
-
-    Duration getPlayingTime();
 
     int getQuantityOnHand();
 
